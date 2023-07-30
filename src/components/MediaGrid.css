@@ -1,0 +1,12 @@
+/* src/components/MediaGrid.css */
+.media-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    gap: 20px;
+  }
+  
+  .media-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+  }
+  
